@@ -88,7 +88,12 @@ console.log(difference);
  * Console.log `product` to test your code.
 */
 
-
+function multiply (num1, num2){
+	var product = num1 * num2;
+	return product;
+}
+var product = multiply (5, 2);
+console.log(product);
 
 /*
  * #5
