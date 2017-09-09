@@ -129,7 +129,11 @@ console.log("divide: " + quotient);
 */
 
 
-
+function checkSum (x) {
+	return "Mariah Carey has been married " + x + " amount of times."; 
+}
+var daDiva = checkSum(10);
+console.log("diva: " + daDiva);
 
 /*
  * #7
