@@ -236,7 +236,13 @@ console.log("add_Subtract: " + resultAddSubstract);
  * Console.log your result.
 */ 
 
-
+function multiplyThenDivide(num1, num2, mum3){
+	var production = num1 * num2;
+	var division = production/num3;
+	return division
+}
+var resultProductionDivision = ((bango3*bango4)/bango5);
+console.log("production_Division: " + resultProductionDivision);
 
 /*
  * #12
