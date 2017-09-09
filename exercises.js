@@ -51,7 +51,7 @@ function add (num1, num2){
 	var sum = num1 + num2; 
 	return sum;
 }
-var sum = add (1, 2);
+var sum = add (bango1, bango2);
 console.log("add: " + sum);
 
 /*
@@ -72,7 +72,7 @@ function subtract (num1, num2){
 	var difference = num1 - num2;
 	return difference;
 }
-var difference = subtract(2, 1);
+var difference = subtract(bango1, bango2);
 console.log("subract: " + difference);
 /*
  * #4
@@ -92,7 +92,7 @@ function multiply (num1, num2){
 	var product = num1 * num2;
 	return product;
 }
-var product = multiply (5, 2);
+var product = multiply (bango1, bango2);
 console.log("multiply: " + product);
 
 /*
@@ -113,7 +113,7 @@ function divide (num1, num2){
 	var quotient = num1 / num2;
 	return quotient;
 }
-var quotient = divide (10, 2);
+var quotient = divide (bango1, bango2);
 console.log("divide: " + quotient);
 
 /*
@@ -210,7 +210,17 @@ console.log("checkdivision: " + divide);
  * Console.log your result.
 */ 
 
+var bango3 = 10; 
+var bango4 = 20;
+var bango5 = 30;
 
+function addThenSubtract(num1, num2, num3){
+	var addition = num1 + num2;
+	var subtraction = addition - num3;
+	return subtraction;
+}
+var resultAddSubstract = ((bango3+bango4)-bango5);
+console.log("add_Subtract: " + resultAddSubstract);
 
 /*
  * #11
