@@ -52,7 +52,7 @@ function add (num1, num2){
 	return sum;
 }
 var sum = add (1, 2);
-console.log(sum);
+console.log("add: " + sum);
 
 /*
  * #3
@@ -73,7 +73,7 @@ function subtract (num1, num2){
 	return difference;
 }
 var difference = subtract(2, 1);
-console.log(difference);
+console.log("subract: " + difference);
 /*
  * #4
  * Function - multiply
@@ -93,7 +93,7 @@ function multiply (num1, num2){
 	return product;
 }
 var product = multiply (5, 2);
-console.log(product);
+console.log("multiply: " + product);
 
 /*
  * #5
@@ -114,7 +114,7 @@ function divide (num1, num2){
 	return quotient;
 }
 var quotient = divide (10, 2);
-console.log(quotient);
+console.log("divide: " + quotient);
 
 /*
  * #6
@@ -127,6 +127,7 @@ console.log(quotient);
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `daDiva`. 
  * Console.log your result.
 */
+
 
 
 
