@@ -68,8 +68,12 @@ console.log(sum);
  * Console.log `difference` to test your code.
 */ 
 
-
-
+function subtract (num1, num2){
+	var difference = num1 - num2;
+	return difference;
+}
+var difference = subtract(2, 1);
+console.log(difference);
 /*
  * #4
  * Function - multiply
