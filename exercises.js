@@ -257,7 +257,11 @@ console.log("production_Division: " + resultProductionDivision);
 */
 
 
-
+ function createFullName(firstName, lastName){
+ 	return "firstName " + "lastName"; 
+ }
+var myFullName = ("Kim " + "Thornton");
+console.log("fullName: " + myFullName);
 /*
  * #13 
  * Function - eatFood
