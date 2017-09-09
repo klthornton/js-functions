@@ -183,8 +183,13 @@ console.log("checkmultiply: " + multiply);
  * Console.log your result.  
 */
 
-
-
+function checkQuotient(){
+	var product = 10; 
+	var quotient = 5; 
+	return product / quotient;
+}
+var divide = checkQuotient(product / quotient);
+console.log("checkdivision: " + divide);
 /*
  * #10
  * Function - addThenSubtract
