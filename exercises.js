@@ -150,7 +150,7 @@ console.log("diva: " + daDiva);
 function checkDifference (x){
 	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos.";
 } 
-var difference = checkDifference(20)
+var difference = checkDifference(20);
 console.log("Taco: " + difference);
 
 /*
@@ -276,7 +276,16 @@ console.log("fullName: " + myFullName);
  * Console.log your result.
  */
 
+var myFullName = ("Kim " + "Thornton");
 
+function eatFood (firstName, lastName, food){
+	var food = "Won Ton Soup";
+	var special = "everyday for breatkfast";
+	return myFullName + " eats " + food + " " + special;   
+}
+
+var exampleEats = eatFood(myFullName);
+console.log("exampeEats: " + exampleEats);
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
