@@ -109,7 +109,12 @@ console.log(product);
  * Console.log `quotient` to test your code.
 */
 
-
+function divide (num1, num2){
+	var quotient = num1 / num2;
+	return quotient;
+}
+var quotient = divide (10, 2);
+console.log(quotient);
 
 /*
  * #6
