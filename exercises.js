@@ -164,7 +164,13 @@ console.log("Taco: " + difference);
  * Console.log your result.  
 */
 
-
+function checkProduct(){
+	var sum = 3;
+	var product = 10;
+	return sum * product;
+}
+var multiply = checkProduct(sum * product);
+console.log("checkmultiply: " + multiply);
 
 /*
  * #9
