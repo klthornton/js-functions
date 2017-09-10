@@ -276,7 +276,6 @@ console.log("fullName: " + myFullName);
  * Console.log your result.
  */
 
-var myFullName = ("Kim " + "Thornton");
 
 function eatFood (firstName, lastName, food){
 	var special = "everyday for breatkfast";
