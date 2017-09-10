@@ -350,6 +350,15 @@ console.log("capitalFirstLtr: " + capital1);
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
+function verifyDrinkingAge(age){
+	if (age >= 21){
+		return true;
+	}else{
+		return false;
+	}
+}
+var canDrink = verifyDrinkingAge(30);
+console.log("drinkAge: " + canDrink);
 
 
 /**
