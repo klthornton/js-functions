@@ -279,12 +279,10 @@ console.log("fullName: " + myFullName);
 var myFullName = ("Kim " + "Thornton");
 
 function eatFood (firstName, lastName, food){
-	var food = "Won Ton Soup";
 	var special = "everyday for breatkfast";
-	return myFullName + " eats " + food + " " + special;   
+	return firstName + lastName + " eats " + food + " " + special;   
 }
-
-var exampleEats = eatFood(myFullName);
+var exampleEats = eatFood("Kim", " Thornton", "Won Ton Soup");
 console.log("exampeEats: " + exampleEats);
 
 /************** ENGAGE HYPERDRIVE **************/
