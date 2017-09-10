@@ -278,8 +278,8 @@ console.log("fullName: " + myFullName);
 
 
 function eatFood (firstName, lastName, food){
-	var special = "everyday for breatkfast";
-	return firstName + lastName + " eats " + food + " " + special;   
+    var special = "everyday for breakfast";
+    return myFullName + " eats " + food + " " + special;   
 }
 var exampleEats = eatFood("Kim", " Thornton", "Won Ton Soup");
 console.log("exampeEats: " + exampleEats);
@@ -298,7 +298,12 @@ console.log("exampeEats: " + exampleEats);
 */
 
 
-
+function shoeSize (inches){
+	var cmToInches = 2.54;
+	return inches * cmToInches;
+}
+var conversion = shoeSize(2);
+console.log("centInch: " + conversion);
 /*
  * #15
  * Function allCaps
@@ -309,7 +314,11 @@ console.log("exampeEats: " + exampleEats);
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
-
+function allCaps (str){
+	return str.toUpperCase();
+}
+var capitalization = allCaps("believe you can and you're halfway there.");
+console.log("capitalize: " + capitalization);
 
 /*
  * #16
