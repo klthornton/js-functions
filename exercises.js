@@ -276,6 +276,7 @@ console.log("fullName: " + myFullName);
  * Console.log your result.
  */
 
+/// I skipped this one because Nao said I needed to include the function createFullName - I'll come back to it once I get clarificaiton - Kim
 
 function eatFood (firstName, lastName, food){
     var special = "everyday for breakfast";
@@ -328,6 +329,14 @@ console.log("capitalize: " + capitalization);
  * Console.log your result.
 */
 
+function oneCap (str){
+	var remain = "elieve you can and you're halfway there."
+	return str[0].toUpperCase()+remain;
+}
+var capital1 = oneCap("believe you can and you're halfway there.");
+console.log("capitalFirstLtr: " + capital1);
+
+///this is the only way I could come up with the answer - Kim
 
 
 /*
