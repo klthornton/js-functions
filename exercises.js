@@ -367,7 +367,15 @@ console.log("drinkAge: " + canDrink);
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
-
+function throwParty(age){
+	if (age >=21){
+		return "Cheee Hoo! We going to da party!";
+	}else{
+		return "Meh, see you at Starbucks.";
+	}
+}
+var canParty = throwParty(30);
+console.log("partyTime: "+ canParty);
 
 
 
